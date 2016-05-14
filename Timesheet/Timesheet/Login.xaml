@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timesheet.Login">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="800">
+			    <Entry x:Name="EntrySiteUrl" Placeholder="Site Url" Text=""></Entry>
+			    <Label x:Name="LbSiteUrl" ></Label>
+			    <Button x:Name="BtModify" Text="Modify" Clicked="BtModify_Clicked"></Button>
+			    <Entry x:Name="EntryUserName" Placeholder="User name" Text="" ></Entry>
+			    <Entry x:Name="EntryPassword" Placeholder="Password" IsPassword="true" Text="" ></Entry>
+			    <Button x:Name="BtLogin" Text="Login" Clicked="BtLogin_Clicked"></Button>
+			    <Label x:Name="LbMessage" IsVisible="false"></Label>
+		  </StackLayout>
+    </ContentPage.Content>  
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timesheet.Home">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="label1" Text="Site Title: "></Label>
+				<Label x:Name="labelTitle"></Label>
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="label2" Text="Site Url: "></Label>
+				<Label x:Name="labelUrl"></Label>
+			</StackLayout>
+		</StackLayout>
+
+	</ContentPage.Content>
+</ContentPage>
